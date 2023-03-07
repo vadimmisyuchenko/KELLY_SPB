@@ -34,6 +34,7 @@ footer {
 h1 {
     font-size: 13.4vw;
     height: 13vw;
+    letter-spacing: .01rem;
 }
 
 nav {
