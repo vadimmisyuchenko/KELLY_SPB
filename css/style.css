@@ -35,6 +35,7 @@ h1 {
     font-size: 13.4vw;
     height: 13vw;
     letter-spacing: .01rem;
+    text-align: center;
 }
 
 nav {
@@ -77,6 +78,11 @@ img {
 }
 
 .nav-item:hover > .drop-menu {
+    opacity: 1;
+    display: flex;
+}
+
+.nav-item:click > .drop-menu {
     opacity: 1;
     display: flex;
 }
@@ -141,8 +147,8 @@ img {
     }
 
     h1 {
-        font-size: 16.8vw;
-        height: 15vw;
+        font-size: 14vw;
+        height: 14vw;
     }
 
     .link {
